@@ -1,14 +1,11 @@
 {
-  "name": "worker-0",
+  "name": "ut-agent-autotests",
   "version": "1.0.0",
+  "description": "Unit tests for UT Agent",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "devDependencies": {
     "jest": "^29.7.0"
   }

@@ -1,4 +1,8 @@
 module.exports = {
+  testEnvironment: 'node',
+  testMatch: ['**/*.test.js'],
+  verbose: true
+};module.exports = {
 	preset: 'jest',
 	verbose: true,
 	testMatch: ['**/**.spec.js'],
